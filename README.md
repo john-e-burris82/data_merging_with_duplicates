@@ -1,2 +1,4 @@
-# data_merging_with_duplicates
-Merge and Remove Duplicates or Remove Duplicates and Merge
+# Combining and Cleaning Data in Python
+In this tutorial, we have a dataset of restaurants in the great Los Angeles area that needs cleaning. In fact, we have two datasets that need to joined, then cleaned. The tasks we need to accomplish are: importing the data to dataframes, combining the dataframes, cleaning up the dataframes (stripping whitespace, removing unwanted periods, remapping categories for 'city' and 'type'), and removing duplicates. I will show you how to check for exact duplicates and near exact duplicates after joining and cleaning the data and then I will show you how to check for duplicates prior to joining the dataframes and then joining them after removing the duplicates. 
+# Data Summary
+The original 'restaurants' data contains 336 rows of data. The variables include 'name', 'addr' (address), 'city', 'phone', and 'type'. The data that needs to be joined from 'restaurants_new' has 82 rows and the same variables. At present, we will strip whitespace; title case 'name', 'address', and 'type'; check for consistencies in 'city', 'phone', and 'type'; change 'type' to a categorical variable; reformat the 'phone' variable, and finally, check for duplicates. You can find the datasets on my Github. Let's get to it!
